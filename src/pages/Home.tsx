@@ -2,7 +2,7 @@ import { Link } from "react-router";
 
 const HomePage = () => {
   return (
-    <div>
+    <div className="flex flex-col justify-center items-center w-full">
       <h2 className="font-medium text-3xl">Welcome to Book Log</h2>
       <p className="text-dark">
         Don’t have an account?{" "}

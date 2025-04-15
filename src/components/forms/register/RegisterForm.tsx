@@ -9,9 +9,9 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from "../ui/form";
-import { Input } from "../ui/input";
-import { Button } from "../ui/button";
+} from "../../ui/form";
+import { Input } from "../../ui/input";
+import { Button } from "../../ui/button";
 import { Link, useNavigate } from "react-router";
 import { useState } from "react";
 import supabase from "@/lib/supabase-client";
@@ -100,7 +100,7 @@ const RegisterForm = () => {
             <Button type="submit">Sign Up</Button>
             <p>
               Already have an account?{" "}
-              <span className="font-semibold">
+              <span className="font-semibold text-brown">
                 <Link to="/login">Sign in</Link>
               </span>
             </p>
